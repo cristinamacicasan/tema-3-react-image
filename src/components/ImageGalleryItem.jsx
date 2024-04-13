@@ -1,7 +1,6 @@
-// ImageGalleryItem.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './ImageGalleryItem.module.css'; // Importăm stilurile pentru ImageGalleryItem
+import styles from './ImageGalleryItem.module.css'; 
 
 const ImageGalleryItem = ({ imageUrl, onClick }) => {
   return (

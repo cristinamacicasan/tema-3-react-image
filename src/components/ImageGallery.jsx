@@ -1,8 +1,7 @@
-// ImageGallery.jsx
 import React from 'react';
 import PropTypes from 'prop-types';
-import ImageGalleryItem from './ImageGalleryItem'; // Importăm componenta ImageGalleryItem
-import styles from './ImageGallery.module.css'; // Importăm stilurile pentru ImageGallery
+import ImageGalleryItem from './ImageGalleryItem'; 
+import styles from './ImageGallery.module.css'; 
 
 const ImageGallery = ({ images, onImageClick }) => {
   return (
@@ -11,7 +10,7 @@ const ImageGallery = ({ images, onImageClick }) => {
         <ImageGalleryItem
           key={image.id}
           imageUrl={image.webformatURL}
-          onClick={onImageClick} // Transmitem funcția onImageClick la fiecare ImageGalleryItem
+          onClick={onImageClick} 
         />
       ))}
     </ul>
@@ -19,8 +18,8 @@ const ImageGallery = ({ images, onImageClick }) => {
 };
 
 ImageGallery.propTypes = {
-  images: PropTypes.array.isRequired, // Lista de imagini
-  onImageClick: PropTypes.func.isRequired, // Funcția care trebuie apelată când utilizatorul face clic pe imagine
+  images: PropTypes.array.isRequired, 
+  onImageClick: PropTypes.func.isRequired, 
 };
 
 export default ImageGallery;
