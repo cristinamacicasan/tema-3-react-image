@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tema-3-react-image/static/css/main.85cd9601.css",
+    "main.css": "/tema-3-react-image/static/css/main.08cff1ec.css",
     "main.js": "/tema-3-react-image/static/js/main.de667d6d.js",
     "index.html": "/tema-3-react-image/index.html",
-    "main.85cd9601.css.map": "/tema-3-react-image/static/css/main.85cd9601.css.map",
+    "main.08cff1ec.css.map": "/tema-3-react-image/static/css/main.08cff1ec.css.map",
     "main.de667d6d.js.map": "/tema-3-react-image/static/js/main.de667d6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.85cd9601.css",
+    "static/css/main.08cff1ec.css",
     "static/js/main.de667d6d.js"
   ]
 }
