@@ -10,11 +10,11 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState('');
-  const [searchTerm, setSearchTerm] = useState(''); // Adăugăm o stare pentru termenul de căutare
+  const [searchTerm, setSearchTerm] = useState(''); 
 
   const handleSubmit = async (searchTerm) => {
     try {
-      setSearchTerm(searchTerm); // Setăm termenul de căutare
+      setSearchTerm(searchTerm); 
       setLoading(true);
       const response = await fetch(
         `https://pixabay.com/api/?q=${searchTerm}&page=1&key=42285080-c22d5f6a90f49c0ab863c2d8a&image_type=photo&orientation=horizontal&per_page=12`
