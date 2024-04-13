@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Loader.module.css'; // Importăm stilurile pentru Loader
+import styles from './Loader.module.css'; 
 
 const Loader = ({ loading }) => {
   return loading ? (
@@ -11,7 +11,7 @@ const Loader = ({ loading }) => {
 };
 
 Loader.propTypes = {
-  loading: PropTypes.bool.isRequired, // Proprietatea 'loading' indică dacă se încarcă sau nu
+  loading: PropTypes.bool.isRequired, 
 };
 
 export default Loader;
