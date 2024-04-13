@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Button.module.css'; // Importăm stilurile pentru Button
+import styles from './Button.module.css'; 
 
 const Button = ({ text, onClick }) => {
   return (
@@ -11,8 +11,8 @@ const Button = ({ text, onClick }) => {
 };
 
 Button.propTypes = {
-  text: PropTypes.string.isRequired, // textul butonului
-  onClick: PropTypes.func.isRequired, // funcția de tratare a evenimentului de click
+  text: PropTypes.string.isRequired, 
+  onClick: PropTypes.func.isRequired, 
 };
 
 export default Button;
