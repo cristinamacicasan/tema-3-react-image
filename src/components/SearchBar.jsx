@@ -15,7 +15,8 @@ const SearchBar = ({ onSubmit }) => {
     setSearchTerm(''); 
   };
 
-  return (
+    return (
+      
     <header className={styles.searchbar}>
       <form className={styles.form} onSubmit={handleSubmit}>
         <input
